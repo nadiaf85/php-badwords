@@ -12,7 +12,7 @@ $paragrafo = "Di origine preistorica, l'abitato venne rifondato dai Romani all'i
     chiave nell'economia della città, come il turismo fieristico e culturale.";
 
 $lunghezzaParagrafo = strlen($paragrafo);
-$parolaDaCensurare = $_GET["militarmente"];
+$parolaDaCensurare = $_GET["parola"];
 
 $paragrafoCensurato = str_replace($parolaDaCensurare, "***", $paragrafo);
 $lunghezzaParagrafoCensurato = strlen($paragrafoCensurato);
